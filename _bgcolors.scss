@@ -1,0 +1,22 @@
+$mapped-bgcolors: (
+  primary: #1100ff,
+  secondary: #6c757d,
+  success: #28a745,
+  info: #17a2b8,
+  warning: #fffb07,
+  orange: #ff9900,
+  danger: #dc3545,
+  purple: #d400ff,
+  aqua: #00f7ff,
+  Light: #f8f9fa,
+  dark: #343a40,
+  white: #fff,
+  black: #000000,
+);
+@each $key, $value in $mapped-colors {
+  @for $i from 1 through 9 {
+    .bg-#{$key}-#{$i}00 {
+      background-color: darken($value, $i * 4%);
+    }
+  }
+}

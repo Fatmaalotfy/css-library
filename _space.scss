@@ -1,0 +1,91 @@
+// height
+@for $i from 0 through 10 {
+  .h-#{$i} {
+    height: $i * 4px;
+  }
+}
+
+//width
+@for $i from 0 through 10 {
+  .w-#{$i} {
+    width: $i * 4px;
+  }
+}
+
+//margin
+@for $i from 0 through 10 {
+  .m-#{$i} {
+    margin: $i * 4px;
+  }
+}
+@for $i from 0 through 10 {
+  .mt-#{$i} {
+    margin-top: $i * 4px;
+  }
+}
+@for $i from 0 through 10 {
+  .ml-#{$i} {
+    margin-left: $i * 4px;
+  }
+}
+@for $i from 0 through 10 {
+  .mb-#{$i} {
+    margin-bottom: $i * 4px;
+  }
+}
+@for $i from 0 through 10 {
+  .mr-#{$i} {
+    margin-right: $i * 4px;
+  }
+}
+@for $i from 0 through 10 {
+  .mx-#{$i} {
+    margin-left: $i * 4px;
+    margin-right: $i * 4px;
+  }
+}
+@for $i from 0 through 10 {
+  .my-#{$i} {
+    margin-bottom: $i * 4px;
+    margin-top: $i * 4px;
+  }
+}
+
+//padding
+@for $i from 0 through 10 {
+  .p-#{$i} {
+    padding: $i * 4px;
+  }
+}
+@for $i from 0 through 10 {
+  .pt-#{$i} {
+    padding-top: $i * 4px;
+  }
+}
+@for $i from 0 through 10 {
+  .pl-#{$i} {
+    padding-left: $i * 4px;
+  }
+}
+@for $i from 0 through 10 {
+  .pb-#{$i} {
+    padding-bottom: $i * 4px;
+  }
+}
+@for $i from 0 through 10 {
+  .pr-#{$i} {
+    padding-right: $i * 4px;
+  }
+}
+@for $i from 0 through 10 {
+  .px-#{$i} {
+    padding-left: $i * 4px;
+    padding-right: $i * 4px;
+  }
+}
+@for $i from 0 through 10 {
+  .py-#{$i} {
+    padding-bottom: $i * 4px;
+    padding-top: $i * 4px;
+  }
+}
